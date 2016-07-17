@@ -1,22 +1,35 @@
+html{
+	position: relative;
+	min-height: 100%;
+}
 body {
-	font-family: 'Pirata One', cursive;
+	font-family: 'Eczar', serif;
 	letter-spacing: .1em;
 	background-color: #D1DDE6;
-	font-size:16px;
+	font-size:16px; 
+	margin: 0 0 43px;
 }
 header{
-	text-align: center;
 	background: #284F6D;
-	margin:0;
 	text-shadow: 2px 2px 2px #000;
+	width: 100%;
 }
-nav{
-	
+
+footer{	
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 43px;
+	width: 100%;
+	background: #284F6D;
+	text-align: center;
 }
+ #logo{
+ 	text-align: center;
+ }
 
 #wrapper {
 	text-align: center;
-	
 	margin: 0 auto;
 	max-width: 640px;
 }
@@ -30,7 +43,6 @@ a{
 	text-decoration: none;
 	color: white;
 	text-shadow: 2px 2px 2px #111;
-
 }
 
 h1{
@@ -38,13 +50,11 @@ h1{
 	color: white;
 	padding: 5px 0 0 0;
 	font-size: 3em;
-
 }
 
 h2 {
 	color: white;
 	padding: 0 0 10px 0;
-	margin: 20px;
 	font-size: 1.5em;
 }
  h3  {
@@ -65,10 +75,21 @@ h2 {
  	background: #6E8CA3;
  	margin: 1em 0;
  	box-shadow: 4px 4px 4px #000;
-
- 	
  }
 
  ul {
  	padding: 0;
+ }
+
+ .icon{
+ 	height: 30px;
+ 	width: 70px;
+ }
+
+ /* Clear Fix*/
+
+ .group:after {
+ 	content: "";
+ 	display: table;
+ 	clear: both;
  }
