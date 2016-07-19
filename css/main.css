@@ -24,6 +24,10 @@ footer{
 	background: #284F6D;
 	text-align: center;
 }
+footer h2{
+	margin: 0;
+	padding: 0;
+}
  #logo{
  	text-align: center;
  }
@@ -81,10 +85,6 @@ h2 {
  	padding: 0;
  }
 
- .icon{
- 	height: 30px;
- 	width: 70px;
- }
 
  /* Clear Fix*/
 
