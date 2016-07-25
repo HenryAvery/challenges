@@ -1,0 +1,44 @@
+body {
+	font-family: Monaco, Consolas, "Lucida Console", monospace;
+	background-color: #669999;
+	color: white;
+}
+#fixed{
+	position: fixed;
+	top: 200px;
+	left: 100px;
+	width: 705px;
+	height: 125px;
+}
+
+#scroll{
+	position: relative;
+	top: 1200px;
+	left: 110px;
+	width: 705px;
+	height: 900px;
+}
+#instruction{
+	position: fixed;
+	top: 100px;
+	left: 300px;
+	color: #336666;
+}
+footer{	
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	height: 43px;
+	width: 100%;
+	background: #336666;
+	text-align: center;
+}
+footer h2{
+	margin: 7px;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	color: white;
+	text-shadow: 2px 2px 2px #111;
+}
