@@ -1,28 +1,29 @@
-html{
-	position: relative;
-	min-height: 100%;
+html, body{
+	height: 100%;
 }
+
 body {
 	font-family: 'Eczar', serif;
 	letter-spacing: .1em;
 	background-color: #D1DDE6;
-	font-size:16px; 
-	margin: 0 0 43px;
+	font-size:16px;
 }
 header{
 	background: #284F6D;
 	text-shadow: 2px 2px 2px #000;
 	width: 100%;
+	float: left;
+	margin: -20px 0 30px 0;
+	padding: 20px 0 0 0;
 }
 
 footer{	
-	position: absolute;
-	left: 0;
-	bottom: 0;
 	height: 43px;
 	width: 100%;
 	background: #284F6D;
 	text-align: center;
+	margin: -39px 0 0;
+	clear: both;
 }
 footer h2{
 	margin: 0;
@@ -34,14 +35,15 @@ footer h2{
 
 #wrapper {
 	text-align: center;
-	margin: 0 auto;
-	max-width: 640px;
+	margin: -20px auto;
+	max-width: 960px;
+	min-height: 100%;
+	padding: 0 5%;
 }
 
 .projects {
 	margin: 0 auto;
 }
-
 
 a{
 	text-decoration: none;
@@ -50,7 +52,7 @@ a{
 }
 
 h1{
-	margin-top: 0;
+	margin: 0;
 	color: white;
 	padding: 5px 0 0 0;
 	font-size: 3em;
@@ -60,35 +62,39 @@ h2 {
 	color: white;
 	padding: 0 0 10px 0;
 	font-size: 1.5em;
+	margin-top: 0;
 }
- h3  {
+h3  {
  	margin-top: 0;
  	padding: 1em 0 0 0;
  	font-size: 1.3em;
  	text-shadow: .5px .5px .5px #fff;
  }
 
- p{
+p{
 	font-size: 1em;
  }
 
- li {
+li {
  	padding: 0 0 1em 0;
  	text-align: center;
  	list-style: none;
  	background: #6E8CA3;
- 	margin: 1em 0;
+ 	margin: 2.5%;
  	box-shadow: 4px 4px 4px #000;
+ 	float: left;
+ 	display: block;
+ 	width: 45%;
  }
 
- ul {
+ul {
  	padding: 0;
  }
 
 
  /* Clear Fix*/
 
- .group:after {
+.group:after {
  	content: "";
  	display: table;
  	clear: both;
