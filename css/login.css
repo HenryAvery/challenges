@@ -1,0 +1,25 @@
+#wrapper {
+  text-align: center;
+  display: block;
+}
+
+#login {
+  margin: 20px 0 50px;
+  border: 1px solid black;
+}
+
+#register {
+  border: 1px solid black;
+}
+
+input {
+  display: block;
+  margin: 5px auto;
+}
+
+button {
+  margin: 10px 0 30px;
+}
+img {
+  max-width: 400px;
+}
