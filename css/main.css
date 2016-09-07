@@ -1,7 +1,6 @@
-html, body{
-	height: 100%;
+html{
+	min-height: 100%
 }
-
 body {
 	font-family: 'Eczar', serif;
 	letter-spacing: .1em;
@@ -13,21 +12,21 @@ header{
 	text-shadow: 2px 2px 2px #000;
 	width: 100%;
 	float: left;
-	margin: -20px 0 30px 0;
 	padding: 20px 0 0 0;
 }
 
 footer{	
-	height: 43px;
+	position:fixed;
+ 	bottom:0;
+ 	left:0;
 	width: 100%;
 	background: #133253;
 	text-align: center;
-	margin: -39px 0 0;
 	clear: both;
 }
-footer h2{
-	margin: 0;
-	padding: 10px 0 0;
+footer p{
+	margin:0;
+	color: #fff;
 }
  #logo{
  	text-align: center;
@@ -37,7 +36,6 @@ footer h2{
 	text-align: center;
 	margin: -20px auto;
 	max-width: 960px;
-	min-height: 100%;
 	padding: 0 5%;
 }
 
@@ -73,7 +71,6 @@ h3  {
 
 p{
 	font-size: .9em;
-	
  }
 
 li {
@@ -87,9 +84,12 @@ li {
  	display: block;
  	width: 45%;
  }
+ li p{
+ 	padding: 5%;
+ }
 
 ul {
- 	padding: 0;
+ 	padding: 0 0 95%;
  }
 .social-icon {
 	width: 20px;
