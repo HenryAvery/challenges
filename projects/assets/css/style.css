@@ -6,4 +6,10 @@ body, html {
 canvas {
     width: 100%;
     background-color: black;
+    z-index: 1;
+}
+h1 {
+	text-align: center;
+	color: red;
+	z-index: 0;
 }
