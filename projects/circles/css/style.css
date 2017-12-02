@@ -1,17 +1,18 @@
-.container{
-	text-align: center;
-	background-color: white;
-	height: 100%;
-}
-.title {
-	color: black;
-}
-#colorButton {
-	width: 100px;
-	height: 50px;
-	margin: 50px 0 0;
+body, html {
+    height: 100%;
+    margin: 0;
 }
 
+canvas {
+    width: 100%;
+    background-color: black;
+    z-index: 1;
+}
+h1 {
+	text-align: center;
+	color: red;
+	z-index: 0;
+}
 footer{	
 	position: absolute;
 	left: 0;
@@ -22,7 +23,7 @@ footer{
 	text-align: center;
 }
 footer h2{
-	margin: 0;
+	margin: 7px;
 	padding: 0;
 }
 a{
