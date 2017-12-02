@@ -8,11 +8,13 @@ body {
 	font-size:16px;
 }
 header{
+	position:fixed;
+ 	top:0;
+ 	left:0;
 	background: #133253;
 	text-shadow: 2px 2px 2px #000;
 	width: 100%;
-	float: left;
-	padding: 20px 0 0 0;
+	padding: 0;
 }
 
 footer{	
@@ -34,7 +36,7 @@ footer p{
 
 #wrapper {
 	text-align: center;
-	margin: -20px auto;
+	margin: 140px auto 0px;
 	max-width: 960px;
 	padding: 0 5%;
 }
@@ -58,7 +60,7 @@ h1{
 
 h2 {
 	color: white;
-	padding: 0 0 10px 0;
+	padding: 0;
 	font-size: 1.1em;
 	margin-top: 0;
 }
@@ -66,11 +68,11 @@ h3  {
  	margin-top: 0;
  	padding: 1em 0 0 0;
  	font-size: 1.2em;
- 	color: #BD4800;
+ 	color: #AA5E38;
  }
 
 p{
-	font-size: .9em;
+	font-size: 1em;
  }
 
 li {
@@ -79,7 +81,7 @@ li {
  	list-style: none;
  	background: #355475;
  	margin: 2.5%;
- 	box-shadow: 3px 3px 5px #000;
+ 	box-shadow: 2px 2px 5px #000;
  	float: left;
  	display: block;
  	width: 45%;
