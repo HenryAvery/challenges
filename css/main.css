@@ -102,3 +102,17 @@ ul {
  	display: table;
  	clear: both;
  }
+
+
+@media only screen and (max-width: 768px) {
+	h1{
+		font-size: 1em;
+	}
+
+	h2 {
+		font-size: .8em;
+	}
+	#wrapper {
+		margin: 100px auto 500px;
+	}
+}
