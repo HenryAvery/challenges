@@ -1,0 +1,30 @@
+@import url(//fonts.googleapis.com/css?family=Oswald:400,700,300);
+body{ text-align: center;
+font-family: "Oswald";
+}
+
+input{ 
+margin:0 0 20px 0;
+}
+#test{
+  margin-top: 10px;
+}
+
+footer{	
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 43px;
+	width: 100%;
+	background: #284F6D;
+	text-align: center;
+}
+footer h2{
+	margin: 7px;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	color: white;
+	text-shadow: 2px 2px 2px #111;
+}

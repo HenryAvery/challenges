@@ -36,7 +36,7 @@ footer p{
 
 #wrapper {
 	text-align: center;
-	margin: 140px auto 0px;
+	margin: 100px auto 100px;
 	max-width: 960px;
 	padding: 0 5%;
 }
@@ -55,7 +55,7 @@ h1{
 	margin: 0;
 	color: white;
 	padding: 5px 0 0 0;
-	font-size: 2em;
+	font-size: 1.5em;
 }
 
 h2 {
@@ -76,7 +76,6 @@ p{
  }
 
 li {
- 	padding: 0 0 1em 0;
  	text-align: center;
  	list-style: none;
  	background: #355475;
